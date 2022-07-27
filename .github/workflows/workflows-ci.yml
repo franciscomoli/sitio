@@ -49,12 +49,8 @@ jobs:
   #         package: ${{ env.DOTNET_ROOT }}/webapp
   #         publish-profile: ${{ secrets.WebAppPublishProfile }}
 
-  security:
-    # runs-on: ubuntu-latest
-    
-    # needs: [build, deploy]
-    steps:
-      # - uses: actions/checkout@v1
-      - uses: franciscomoli/docker-test-action/.github/workflows/workflow6.yml@master
-        # with:
-        #   URL: "https://www.mezcladigital.com/"
+  call-workflow-passing-data:
+    uses: franciscomoli/docker-test-action/.github/workflows/workflow6.yml@master
+    # with:
+    #   username: mona
+    secrets: inherit
