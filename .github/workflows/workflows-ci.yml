@@ -10,5 +10,4 @@ jobs:
     uses: franciscomoli/docker-test-action/.github/workflows/workflow6.yml@master
     # with:
     #   username: mona
-    # secrets: inherit
-    
+    # secrets: inherit    
