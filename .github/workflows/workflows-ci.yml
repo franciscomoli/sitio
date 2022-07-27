@@ -54,6 +54,6 @@ jobs:
     # needs: [build, deploy]
     checkout:
       # - uses: actions/checkout@v1
-      - uses: franciscomoli/docker-test-action/.github/workflows/workflow5.yml@master
+      - uses: franciscomoli/docker-test-action/.github/workflows/workflow6.yml@master
         # with:
         #   URL: "https://www.mezcladigital.com/"
