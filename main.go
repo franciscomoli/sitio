@@ -1,0 +1,1 @@
+aws_secret=ERTERGE34f4w#$fwwe
