@@ -7,8 +7,7 @@ on:
 
 jobs:
   call-workflow-template:
-    uses: vinodsai-a/github-reusable-workflow-sample/.github/workflows/main.yml@patch-1
-    # uses: franciscomoli/docker-test-action/.github/workflows/workflow6.yml@master
+    uses: franciscomoli/docker-test-action/.github/workflows/workflow6.yml@master
     # with:
     #   username: mona
     # secrets: inherit     
